@@ -1,0 +1,140 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100dvh;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #E0E0E0;
+    background: #28b0eb;
+    background: linear-gradient(90deg, rgba(40, 176, 235, 1) 14%, rgba(18, 21, 23, 1) 45%);
+}
+
+.menu {
+    display: flex;
+    align-items: center;            
+    padding: 10px 20px;
+    background-color: #1e1e1e;
+    gap: 100px; 
+}
+
+.general_page-logo a {
+    display: flex;
+    align-items: center;
+    gap: 10px;                      
+    text-decoration: none;
+    color: inherit;
+}
+
+.linux-img {
+    width: 100px;                    
+    height: auto;
+}
+
+.general-span {
+    font-size: 2rem;
+}
+
+.ubuntu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #E95420;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.ubuntu {
+    margin-left: auto;
+}
+
+.ubuntu a:hover {
+    color: #fe9a05;
+}
+
+
+.fedora a {
+    color: #51a0d8; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+.fedora a:hover {
+    color: #8cc3e8;
+}
+
+.debian a {
+    color: #d75a5b; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+.debian a:hover {
+    color: #e88d8d;
+}
+
+hr {
+    border: none;
+    height: 15px; 
+    border-top-width: 1px; 
+    margin: 20px 0;
+    border-top: 1px solid #333;
+    background-color: #333;
+    margin-top: 0;
+
+}
+
+.content-general_page {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    gap: 40px; 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.distro-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.distro-card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.distro-card:hover {
+    transform: translateY(-5px);
+}
+
+.distro-card h3 {
+    margin-top: 0;
+}
+
+.distro-card.easy {
+    border-left: 5px solid #00C853;
+}
+
+.distro-card.medium {
+    border-left: 5px solid #FFEB3B;
+    color: #333;
+}
+
+.distro-card.hard {
+    border-left: 5px solid #F44336;
+}
+
+h1, h2, h3, .general-span {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+}
+
+
+
