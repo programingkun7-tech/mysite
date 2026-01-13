@@ -109,7 +109,7 @@ hr {
 .distro-card {
     padding: 20px;
     border-radius: 8px;
-    background-color: #1e1e1e;
+    background-color: #030303;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
     transition: transform 0.2s;
 }
@@ -184,8 +184,8 @@ p {
   
 .toc-sidebar a {
     text-decoration: none;
-    color: #020202;
-    text-decoration: underline solid #020202 2px;
+    color: #f9f6f6;
+    text-decoration: underline solid #f0c8c8 2px;
 }
 
 table {
