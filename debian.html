@@ -2,101 +2,107 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <title>Debian</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мир Дистрибутивов Linux</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="theme-debian">
 
 <header class="header">
-  <nav class="menu">
-    <div class="general_page-logo">
-      <a href="index.html">
-        <img src="images/linux-logo.png" class="linux-img" alt="GNU/Linux Logo">
-        <span class="general-span">GNU/Linux</span>
-      </a>
-    </div>
-    <div class="ubuntu">
-      <a href="https://ubuntu.com" target="_blank" title="Перейти на сайт Ubuntu">Ubuntu</a>
+  <nav>
+    <div class="menu">
+      <div class="general_page-logo">
+        <a href="index.html">
+          <img src="images/d25082891af9c5f431654fed6678accf.png" class="linux-img" alt="GNU/Linux Logo" title="Для перехода на главную страницу нажмите тут">
+          <span class="general-span">GNU/Linux</span>
+        </a>
+      </div>
+      <div class="ubuntu"><a href="ubuntu.html">Ubuntu</a></div>
+      <div class="fedora"><a href="fedora.html">Fedora</a></div>
+      <div class="debian"><a href="debian.html">Debian</a></div>
     </div>
   </nav>
 </header>
+<hr>
+    <div class="debian">
+        <div class="promo-line">
+            <marquee scrollamount="7">Debian: Скала стабильности в мире программного обеспечения. Выбор профессионалов.</marquee>
+        </div>
 
-<main>
-    <h1 class="text-center">Популярные дистрибутивы Linux 2026</h1>
-    
-    <marquee scrollamount="8" class="running-line">
-        Linux — это свобода. Выбирайте свой дистрибутив: Ubuntu, Debian, Arch, Fedora, Mint...
-    </marquee>
+        <div class="content-general_page">
+        <main>
+            <h1 class="text-center">Дистрибутив Debian</h1>
+            <hr>
 
-    <hr>
+            <div id="history">
+                <h2>История Debian</h2>
+                <p style="font-family: 'Times New Roman', serif; font-size: 1.1em;">
+                    Debian был основан в <b>1993 году</b> <i>Яном Мёрдоком</i>. Это один из старейших дистрибутивов, 
+                    который развивается исключительно <u>силами добровольцев</u>. Название произошло от имен Debra (жены Яна) и Ian.
+                </p>
+            </div>
 
-    <section>
-        <h2 class="text-left">О системе</h2>
-        <p class="paragraph-1">
-            <span class="bold">Linux</span> — это семейство операционных систем с открытым исходным кодом. 
-            В отличие от Windows, здесь вы полностью контролируете свой компьютер.
-        </p>
-        
-        <p class="paragraph-2 text-right">
-            Этот текст выровнен <span class="italic">по правому краю</span> и использует шрифт <span class="underline">Times New Roman</span> для демонстрации различных стилей оформления.
-        </p>
-    </section>
+            <div id="features" class="text-right">
+                <h3>Базовый функционал</h3>
+                <p style="font-family: Arial; font-size: 1.05em;">
+                    Система славится своей системой управления пакетами <b>APT</b> и форматом <i>.deb</i>. 
+                    Она поддерживает рекордное количество компьютерных архитектур.
+                </p>
+            </div>
 
-    <hr>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Openlogo-debian.svg/150px-Openlogo-debian.svg.png" 
+                alt="Debian Logo" class="img-bordered" title="Красная спираль Debian — эталон стабильности">
 
-    <section>
-        <h3>Сравнение популярных систем</h3>
-        <table class="linux-table">
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>База</th>
-                    <th>Сложность</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Ubuntu</td>
-                    <td>Debian</td>
-                    <td>Низкая</td>
-                </tr>
-                <tr>
-                    <td>Arch Linux</td>
-                    <td>Independent</td>
-                    <td>Высокая</td>
-                </tr>
-                <tr>
-                    <td>Fedora</td>
-                    <td>Red Hat</td>
-                    <td>Средняя</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <div id="tech">
+                <h2>Ветки разработки</h2>
+                <ol>
+                    <li><strong>Stable:</strong> Протестированная и максимально надежная</li>
+                    <li><strong>Testing:</strong> База для следующего релиза</li>
+                    <li><strong>Unstable (Sid):</strong> Самое новое ПО для экспериментов</li>
+                </ol>
 
-    <section>
-        <h3>Почему выбирают Linux?</h3>
-        <ul class="linux-list">
-            <li>Безопасность и отсутствие вирусов.</li>
-            <li>Огромные возможности <span class="bold">кастомизации</span>.</li>
-            <li>Бесплатное программное обеспечение.</li>
-        </ul>
-    </section>
+                <table>
+                    <tr>
+                        <th>Релиз</th>
+                        <th>Кодовое имя</th>
+                        <th>Статус</th>
+                    </tr>
+                    <tr>
+                        <td>12</td>
+                        <td>Bookworm</td>
+                        <td>Текущий стабильный</td>
+                    </tr>
+                    <tr>
+                        <td>11</td>
+                        <td>Bullseye</td>
+                        <td>Предыдущий стабильный</td>
+                    </tr>
+                </table>
+            </div>
 
-    <section class="text-center">
-        <h3>Логотип сообщества</h3>
-        <!-- Рисунок с рамкой и всплывающей подсказкой -->
-        <img src="upload.wikimedia.org" 
-             class="framed-img" 
-             alt="Tux Penguin" 
-             title="Пингвин Tux — официальный талисман Linux">
-    </section>
-</main>
+            <p class="text-center">
+                Узнать всё о пакетах можно тут: <a href="https://www.debian.org" title="Перейти на главную страницу проекта Debian">Сайт Debian</a>.
+            </p>
+        </main>
 
-<footer class="text-center">
-    <p>&copy; 2026 Справочник по Linux. Все права защищены.</p>
-</footer>
-
+        <aside class="toc-sidebar">
+            <nav style="background: #fff; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+            <p><b>Разделы страницы</b></p>
+            <ul>
+                <li><a href="#history">Основание</a></li>
+                <li><a href="#features">Особенности</a></li>
+                <li><a href="#tech">Ветки системы</a></li>
+            </ul>
+            </nav>
+        </aside>
+        </div>
+    </div>
 </body>
 </html>

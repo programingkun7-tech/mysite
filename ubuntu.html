@@ -1,37 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <title>Ubuntu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ubuntu-myweb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="theme-ubuntu">
 
-    <header class="header">
+<header class="header">
   <nav>
-  <div class="menu">
-    <div class="general_page-logo">
-      <a href="index.html">
-        <img src="images/d25082891af9c5f431654fed6678accf.png" class="linux-img" alt="GNU/Linux Logo">
-        <span class="general-span">GNU/Linux</span>
-      </a>
+    <div class="menu">
+      <div class="general_page-logo">
+        <a href="index.html">
+          <img src="images/d25082891af9c5f431654fed6678accf.png" class="linux-img" alt="GNU/Linux Logo" title="Для перехода на главную страницу нажмите тут">
+          <span class="general-span">GNU/Linux</span>
+        </a>
+      </div>
+      <div class="ubuntu"><a href="ubuntu.html">Ubuntu</a></div>
+      <div class="fedora"><a href="fedora.html">Fedora</a></div>
+      <div class="debian"><a href="debian.html">Debian</a></div>
     </div>
-    <div class="ubuntu">
-      <a href="ubuntu.html">Ubuntu</a>
-    </div>
- 
-    <div class="fedora">
-      <a href="fedora.html">Fedora</a>
-    </div>
-    
-    <div class="debian">
-      <a href="debian.html">Debian</a>
-    </div>
-  </div>
   </nav>
 </header>
 <hr>
-    
+
+<div class="promo-line">
+    <marquee scrollamount="10">Ubuntu 24.04 LTS — самый популярный дистрибутив в мире. Скачай сейчас!</marquee>
+</div>
+
+<div class="content-general_page">
+  <main>
+    <h1 class="text-center">Дистрибутив Ubuntu</h1>
+    <hr>
+
+    <div id="history">
+        <h2>История Ubuntu</h2>
+        <p style="font-family: 'Times New Roman', serif; font-size: 1.1em;">
+            История началась в <b>2004 году</b>. <i>Марк Шаттлворт</i> и компания Canonical решили создать Linux, который будет понятен каждому. 
+            <u>Ubuntu</u> основана на пакетной базе Debian, но сфокусирована на удобстве пользователя.
+        </p>
+    </div>
+
+    <div id="features" class="text-right">
+        <h3>Базовый функционал</h3>
+        <p style="font-family: Arial; font-size: 0.9em;">
+            Система использует графическую оболочку GNOME. Она включает в себя магазин приложений 
+            <b>Snap Store</b>, который позволяет устанавливать программы в один клик.
+        </p>
+    </div>
+
+    <img src="" 
+         alt="Ubuntu" class="img-bordered" title="Логотип Ubuntu: Круг друзей">
+
+    <div id="tech">
+        <h2>Технические характеристики</h2>
+        <ul>
+            <li><strong>Ядро:</strong> Linux LTS версии</li>
+            <li><strong>Менеджер пакетов:</strong> APT и Snap</li>
+            <li><strong>Цикл обновлений:</strong> Каждые 6 месяцев</li>
+        </ul>
+
+        <table>
+            <tr>
+                <th>Версия</th>
+                <th>Кодовое имя</th>
+                <th>Поддержка</th>
+            </tr>
+            <tr>
+                <td>22.04</td>
+                <td>Jammy Jellyfish</td>
+                <td>До 2027 г.</td>
+            </tr>
+            <tr>
+                <td>24.04</td>
+                <td>Noble Numbat</td>
+                <td>До 2029 г.</td>
+            </tr>
+        </table>
+    </div>
+
+    <p class="text-center">
+        Подробнее можно узнать на <a href="https://ubuntu.com" title="Перейти на внешний сайт Ubuntu">официальном сайте</a>.
+    </p>
+  </main>
+
+  <aside class="toc-sidebar">
+    <nav style="background: #fff; padding: 15px; border-radius: 8px; border: 1px solid #ddd;">
+      <p><b>На этой странице</b></p>
+      <ul>
+        <li><a href="#history">История</a></li>
+        <li><a href="#features">Функционал</a></li>
+        <li><a href="#tech">Характеристики</a></li>
+      </ul>
+    </nav>
+  </aside>
+</div>
+
 </body>
 </html>
